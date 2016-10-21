@@ -329,6 +329,10 @@ public class DobbeltLenketListe<T> implements Liste<T> {
             liste.oppdater(j + 1, verdi);
         }
     }
+    
+    // Ulf sorter
+    // finn minste, fjern og legg inn bak. Finn neste, men ikke gjennom hele tabellen. 
+    // Teller holder styr på hvor stor del av tabellen vi søker i
 
     @Override
     public Iterator<T> iterator() {
